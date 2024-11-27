@@ -1,5 +1,11 @@
 # rSoccer Docker
 ## Dockerfile tutorial
+**Clone**
+```bash
+git clone https://github.com/gustavomoura628/rSoccer-Docker
+cd rSoccer-Docker
+```
+
 **Build image:**
 ```bash
 docker build -t rl_ssl_rsoccer .

@@ -29,4 +29,4 @@ RUN git clone https://github.com/robocin/rSoccer.git /rSoccer && \
 
 # Set up work directory and copy user code
 WORKDIR /workspace
-COPY env.py agent.py /workspace/
+COPY src/ /workspace/src

@@ -18,7 +18,12 @@ sudo xhost +local:docker
 
 **Run container**
 ```bash
-docker run -it --name=rl_ssl_rsoccer --net=host --env DISPLAY=$DISPLAY rl_ssl_rsoccer
+docker run -it \
+--name=rl_ssl_rsoccer \
+--net=host \
+--env DISPLAY=$DISPLAY \
+-v ./src:/workspace/src_dev \
+rl_ssl_rsoccer
 ```
 
 **Run agent**

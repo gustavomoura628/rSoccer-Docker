@@ -28,6 +28,7 @@ rl_ssl_rsoccer
 
 **Run agent**
 ```bash
+cd src
 python3.10 agent.py
 ```
 
